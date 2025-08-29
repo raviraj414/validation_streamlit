@@ -1,0 +1,24 @@
+[
+    {
+        "id": "rule-2",
+        "command": "Select",
+        "original": "~ `Select` `main_dlg_cur` `PHTLeft.AssyTree1` `T3 21`",
+        "pattern": "~ `Select` `main_dlg_cur` `PHTLeft.AssyTree1` `T3` `\\d+`",
+        "replace": "~ `Select` `main_dlg_cur` `PHTLeft.AssyTree1` `T3` `<NUMBER>`",
+        "normalized": "~ `Select` `main_dlg_cur` `PHTLeft.AssyTree1` `T3` `<NUMBER>`",
+        "created_by": "LLM",
+        "created_at": "2025-08-13T07:05:00Z",
+        "processed": false
+    },
+    {
+        "id": "rule-5",
+        "command": "Update",
+        "original": "~ Update `ui_pat_dim_panel.0.0` `incremental_MRU1` `VALUE`",
+        "pattern": "~ Update\\s+`ui_pat_dim_panel\\.0\\.0`\\s+`incremental_MRU1`\\s+`[^`]+`",
+        "replace": "~ Update `ui_pat_dim_panel.0.0` `incremental_MRU1` `<VALUE>`",
+        "normalized": "~ Update `ui_pat_dim_panel.0.0` `incremental_MRU1` `<VALUE>`",
+        "created_by": "LLM",
+        "created_at": "2025-08-13T14:08:33",
+        "processed": false
+    }
+]

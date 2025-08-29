@@ -1,0 +1,18 @@
+[
+    {
+        "id": "rule-1",
+        "command": "Update",
+        "original": "~ Update `main_dlg_cur` `maindashInst1.RotateInput` `21.8`",
+        "pattern": "~ Update\\s+`main_dlg_cur`\\s+`(maindashInst\\d+\\.RotateInput)`\\s+`[^`]+`",
+        "replace": "~ Update `main_dlg_cur` `\\1` `<VALUE>`",
+        "normalized": "~ Update `main_dlg_cur` `maindashInst1.RotateInput` `<VALUE>`",
+        "created_by": "LLM",
+        "created_at": "2025-08-13T07:00:00Z",
+        "processed": false,
+        "locations": [
+            "path1",
+            "path2"
+        ],
+        "comment": "i am not sure"
+    }
+]

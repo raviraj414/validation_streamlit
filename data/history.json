@@ -1,0 +1,20 @@
+[
+    {
+        "rule_id": "rule-1",
+        "action": "Partially Correct",
+        "user": "rtekale@ptc.com",
+        "timestamp": "2025-08-14   18:01:45"
+    },
+    {
+        "rule_id": "rule-2",
+        "action": "Approved",
+        "user": "rtekale@ptc.com",
+        "timestamp": "2025-08-14   18:05:50"
+    },
+    {
+        "rule_id": "rule-5",
+        "action": "Approved",
+        "user": "rtekale@ptc.com",
+        "timestamp": "2025-08-14   18:06:34"
+    }
+]

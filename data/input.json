@@ -1,0 +1,138 @@
+[
+    {
+        "id": "rule-1",
+        "command": "Update",
+        "original": "~ Update `main_dlg_cur` `maindashInst1.RotateInput` `21.8`",
+        "pattern": "~ Update\\s+`main_dlg_cur`\\s+`(maindashInst\\d+\\.RotateInput)`\\s+`[^`]+`",
+        "replace": "~ Update `main_dlg_cur` `\\1` `<VALUE>`",
+        "normalized": "~ Update `main_dlg_cur` `maindashInst1.RotateInput` `<VALUE>`",
+        "created_by": "LLM",
+        "created_at": "2025-08-13T07:00:00Z",
+        "processed": true,
+        "locations": [
+            "path1",
+            "path2"
+        ]
+    },
+    {
+        "id": "rule-2",
+        "command": "Select",
+        "original": "~ `Select` `main_dlg_cur` `PHTLeft.AssyTree1` `T3 21`",
+        "pattern": "~ `Select` `main_dlg_cur` `PHTLeft.AssyTree1` `T3` `\\d+`",
+        "replace": "~ `Select` `main_dlg_cur` `PHTLeft.AssyTree1` `T3` `<NUMBER>`",
+        "normalized": "~ `Select` `main_dlg_cur` `PHTLeft.AssyTree1` `T3` `<NUMBER>`",
+        "created_by": "LLM",
+        "created_at": "2025-08-13T07:05:00Z",
+        "processed": true
+    },
+    {
+        "id": "rule-3",
+        "command": "Insert",
+        "original": "~ `Insert` `main_dlg_cur` `PHTLeft.AssyTree1` `T3 21`",
+        "pattern": "~ Insert\\s+`main_dlg_cur`\\s+`PHTLeft\\.AssyTree1`\\s+`T3`\\s+`\\d+`",
+        "replace": "~ `Insert` `main_dlg_cur` `PHTLeft.AssyTree1` `T3` `<NUMBER>`",
+        "normalized": "~ `Insert` `main_dlg_cur` `PHTLeft.AssyTree1` `T3` `<NUMBER>`",
+        "created_by": "LLM",
+        "created_at": "2025-08-13T07:10:00Z",
+        "processed": false
+    },
+    {
+        "id": "rule-4",
+        "command": "Update",
+        "original": "~ Update `main_dlg_cur` `maindashInstX.RotateInput` `VALUE`",
+        "pattern": "~ Update\\s+`main_dlg_cur`\\s+`(maindashInst\\d+\\.RotateInput)`\\s+`[^`]+`",
+        "replace": "~ Update `main_dlg_cur` `\\1` `<VALUE>`",
+        "normalized": "~ Update `main_dlg_cur` `maindashInstX.RotateInput` `<VALUE>`",
+        "created_by": "LLM",
+        "created_at": "2025-08-13T14:08:33",
+        "processed": false
+    },
+    {
+        "id": "rule-5",
+        "command": "Update",
+        "original": "~ Update `ui_pat_dim_panel.0.0` `incremental_MRU1` `VALUE`",
+        "pattern": "~ Update\\s+`ui_pat_dim_panel\\.0\\.0`\\s+`incremental_MRU1`\\s+`[^`]+`",
+        "replace": "~ Update `ui_pat_dim_panel.0.0` `incremental_MRU1` `<VALUE>`",
+        "normalized": "~ Update `ui_pat_dim_panel.0.0` `incremental_MRU1` `<VALUE>`",
+        "created_by": "LLM",
+        "created_at": "2025-08-13T14:08:33",
+        "processed": true
+    },
+    {
+        "id": "rule-6",
+        "command": "Update",
+        "original": "~ Update `ui_pat_dim_panel.0.0` `incremental_MRU2` `VALUE`",
+        "pattern": "~ Update\\s+`ui_pat_dim_panel\\.0\\.0`\\s+`incremental_MRU2`\\s+`[^`]+`",
+        "replace": "~ Update `ui_pat_dim_panel.0.0` `incremental_MRU2` `<VALUE>`",
+        "normalized": "~ Update `ui_pat_dim_panel.0.0` `incremental_MRU2` `<VALUE>`",
+        "created_by": "LLM",
+        "created_at": "2025-08-13T14:08:33",
+        "processed": false
+    },
+    {
+        "id": "rule-7",
+        "command": "Update",
+        "original": "~ Update `qcr_tool_dlg` `BaseFileName` `FILENAME`",
+        "pattern": "~ Update\\s+`qcr_tool_dlg`\\s+`BaseFileName`\\s+`[^`]+`",
+        "replace": "~ Update `qcr_tool_dlg` `BaseFileName` `<FILENAME>`",
+        "normalized": "~ Update `qcr_tool_dlg` `BaseFileName` `<FILENAME>`",
+        "created_by": "LLM",
+        "created_at": "2025-08-13T14:08:33",
+        "processed": false
+    },
+    {
+        "id": "rule-8",
+        "command": "Update",
+        "original": "~ Update `ftb_edit_table` `table_INPUT` `VALUE`",
+        "pattern": "~ Update\\s+`ftb_edit_table`\\s+`table_INPUT`\\s+`[^`]*`",
+        "replace": "~ Update `ftb_edit_table` `table_INPUT` `<VALUE>`",
+        "normalized": "~ Update `ftb_edit_table` `table_INPUT` `<VALUE>`",
+        "created_by": "LLM",
+        "created_at": "2025-08-13T14:08:33",
+        "processed": false
+    },
+    {
+        "id": "rule-9",
+        "command": "Update",
+        "original": "~ Update `main_dlg_cur` `mod_partdim_emb` `VALUE`",
+        "pattern": "~ Update\\s+`main_dlg_cur`\\s+`mod_partdim_emb`\\s+`[^`]+`",
+        "replace": "~ Update `main_dlg_cur` `mod_partdim_emb` `<VALUE>`",
+        "normalized": "~ Update `main_dlg_cur` `mod_partdim_emb` `<VALUE>`",
+        "created_by": "LLM",
+        "created_at": "2025-08-13T14:08:33",
+        "processed": false
+    },
+    {
+        "id": "rule-10",
+        "command": "Update",
+        "original": "~ Update `inputname` `InpName` `FILENAME`",
+        "pattern": "~ Update\\s+`inputname`\\s+`InpName`\\s+`[^`]+`",
+        "replace": "~ Update `inputname` `InpName` `<FILENAME>`",
+        "normalized": "~ Update `inputname` `InpName` `<FILENAME>`",
+        "created_by": "LLM",
+        "created_at": "2025-08-13T14:08:33",
+        "processed": false
+    },
+    {
+        "id": "rule-11",
+        "command": "Update",
+        "original": "~ Update `orient` `panzoomPH.ZoomSlider` `VALUE`",
+        "pattern": "~ Update\\s+`orient`\\s+`([^`]+)`\\s+-?\\d+",
+        "replace": "~ Update `orient` `\\1` `<VALUE>`",
+        "normalized": "~ Update `orient` `panzoomPH.ZoomSlider` `<VALUE>`",
+        "created_by": "LLM",
+        "created_at": "2025-08-13T14:08:33",
+        "processed": false
+    },
+    {
+        "id": "rule-12",
+        "command": "Update",
+        "original": "~ Update `persp` `SliderName` `VALUE`",
+        "pattern": "~ Update\\s+`persp`\\s+`([^`]+)`\\s+-?\\d+",
+        "replace": "~ Update `persp` `\\1` `<VALUE>`",
+        "normalized": "~ Update `persp` `SliderName` `<VALUE>`",
+        "created_by": "LLM",
+        "created_at": "2025-08-13T14:08:33",
+        "processed": false
+    }
+]
